@@ -11,7 +11,7 @@ function updateDateTime() {
 
     // Update UTC time
     const currentUTCTime = currentDate.getTime();
-    document.querySelector('[data-testid="currentUTCTime"]').textContent = currentUTCTime + "ms";
+    document.querySelector('[data-testid="currentUTCTime"]').textContent = currentUTCTime;
 }
 
 
